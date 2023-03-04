@@ -1,0 +1,40 @@
+body    {
+    background-color: black;
+    color: beige;
+    background-image: url("https://wallpaperaccess.com/full/414957.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:cover;
+    margin-left: 100px;
+}
+
+
+.fighting, .sign, .geralt   {
+    text-align: justify;
+    
+    width: 70%;
+}
+.img-sword, .img-crossbow, .img-bomb, .img-sign    {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid wheat;
+}
+#geralt {
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-sizing: border-box;
+    border: 1px solid wheat;
+}
+
+h1, h2  {
+    border-bottom: 1px solid wheat;
+    width: 100%;
+}
+
+.contact, .title   {
+    width: 70%;
+}

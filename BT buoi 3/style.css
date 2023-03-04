@@ -1,0 +1,190 @@
+body    {
+    /* background-color: rgb(0, 174, 255); */
+    background-image: url(./starsky.jpg);
+    background-repeat: none;
+    background-size: cover ;
+    background-attachment: local;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    
+}
+.title-bar  {
+    background-color: white;
+    color: black;
+}
+.first-window   {
+    
+    width: 298px;
+    
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right:0;
+    display: inline-block;
+    
+   
+}
+.second-window  {
+    margin-left: 0px;
+    width: 298px;
+    
+    box-sizing: border-box;
+    padding-left: 40px;
+    
+    display: inline-block;
+}
+.img-second-window  {
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    border: 2px solid wheat;
+}
+.third-window    {
+    
+    width: 600px;
+    
+    box-sizing: border-box;
+    
+    
+    display: inline-block;
+}
+.img-third-window   {
+    width: 100%;
+    height: 100%;
+       
+}
+.text-first-window  {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: wheat;
+    font-size: 15px;
+}
+.text-second-window    {
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    color: wheat;
+    font-size: 20px;
+}
+.text-third-window  {
+    background-color: blueviolet;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+    padding-left: 250px;
+    padding-right: 100px;
+    color: beige;
+}
+.temp-first-window  {
+    color: wheat;
+    font-size: 60px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.select {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+td.column  {
+    column-width: 150px;
+    
+}
+td.column-2     {
+    column-width: 60px;
+    padding-left: 2px;
+}
+td.column-3     {
+    padding-left: 2px;
+}
+tr.row-1    {
+    height: 50px;
+}
+tr.row-2    {
+    background-color: bisque;
+    height: 150px;
+}
+tr.row-3    {
+    background-color: rgb(245, 240, 255);
+    height: 150px ;
+}
+th  {
+    background-color: blueviolet;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+    color: beige;
+}
+.table1, .table2  {
+    width: 600px;
+    height: 330px;
+    display: inline-block;
+    background-color: white;
+    margin: 0 auto;
+        
+}
+
+
+/* .table-weather  {
+    display: block;
+} */
+
+.img-day-weather    {
+    height: 60px;
+    width: 60px;
+    border-radius: 25%;
+   
+}
+.img-night-weather    {
+    height: 55px;
+    width: 55px;
+    border-radius: 25%;
+    padding-left: 3px;
+}
+.button:hover {
+    background-color: tomato; /* Green */
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.button {
+    border:none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 197px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    color: azure;
+}
+.button-title   {
+    border:none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 150px;
+    display: inline-block;
+    
+}
+.button-title:hover {
+    background-color: tomato; /* Green */
+    color: white;
+    border: none;
+    
+}
+.connect-section    {
+    width: 100%;
+    margin-left: 472px;
+    margin-right: 600px;
+    
+}
+.connect    {
+    color: wheat;
+    margin: 10 auto;
+    padding-left: 60px;
+    font-size: 20px;
+}
+.contact    {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
