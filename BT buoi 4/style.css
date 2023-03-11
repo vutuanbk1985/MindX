@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.bar-1 {
+    border: solid 1px darkgoldenrod;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+    padding: 0.5%;
+    margin: 20px;
+}
+
+.logo {
+    border: solid 1px black;
+    background-color: chartreuse;
+    width: 10%;
+    padding: 4px;
+    
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navibar {
+    border: solid 1px black;
+    background-color: hotpink;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.bar-2 {
+    border: solid 1px darkgoldenrod;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+    padding: 0.5%;
+    margin: 20px;
+}
+
+.navigation-2 {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navibar-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.login {
+    border: solid 1px black;
+    background-color: darkcyan;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar-3 {
+    border: solid 1px darkgoldenrod;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height:70px;
+    padding: 0.5%;
+    margin: 20px;
+}
+.logo-branch    {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.logo-3 {
+    border: solid 1px black;
+    background-color: chartreuse;
+    width: 40%;
+    /* padding: 6%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.branch   {
+    width: 40%;
+    font-size: 40px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navigation-3 {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navibar-3 {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.navibar-3.image {
+    border: 1px green solid;
+    background-color: darkolivegreen;
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+.bar-4 {
+    border: solid 1px darkgoldenrod;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height:80px;
+    padding: 0.5%;
+    margin: 20px;
+}
+.navigation-4 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navibar-4 {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.navibar-4.image {
+    border: 1px green solid;
+    background-color: darkolivegreen;
+    width: 30%;
+    border-radius: 50%;
+}
+.fa-solid.fa-house,  .fa-solid.fa-user,  .fa-solid.fa-shop, .fa-solid.fa-bell {
+    font-size: 25px;
+    
+}
+.home, .friend, .market {
+    width: 30%;
+}
+.navibar-3.number {
+    border: 1px red;
+    background-color: rgb(221, 117, 172);
+    width: 10%;
+    height: 35%;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -20px;
+}
