@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 15%;
+}
+.popup  {
+    margin: 0 auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0437/8761/6424/files/img-2_970x.jpg?v=1613560327);
+    background-size: cover;
+    // opacity: 0.7;
+    color: white;
+    min-width: 200px;
+    max-width: 35%;
+    height: 30%;
+    padding: 30px 2%;
+    position: relative;
+    display: none;
+    visibility: hidden;
+}
+.close-btn   {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: none;
+    border: none;
+}
+.input-btn  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.email-input    {
+    border-radius: 20px;
+    max-width: 100%;
+    min-width: 65%;
+    padding: 10px 5%;
+    
+}
+.submit-btn {
+    border-radius: 20px;
+    background-color: red;
+    max-width: 100%;
+    min-width: fit-content;
+    padding: 10px 10%;
+}
+.icon   {
+    margin: 10px 0;
+}
+.fa-brands.fa-facebook-f.fa-2xs, .fa-brands.fa-instagram.fa-2xs, .fa-brands.fa-pinterest.fa-2xs     {
+    margin: 5px;
+}
+.invisibility-toggle {
+    visibility: hidden;
+    display: none;
+    z-index: 100;
+}
+.visibility-toggle {
+    visibility: visible;
+    display: block;
+    z-index: 1;
+}
